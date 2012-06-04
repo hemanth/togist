@@ -1,0 +1,21 @@
+{
+  "name": "togist",
+  "version" : "1.0.1",
+  "icons" : {
+    "16" : "github-little.png",
+    "128" : "github-big.png"
+  },
+  "background_page" : "background.html",
+  "permissions" : [
+    "tabs",
+    "contextMenus",
+    "https://api.github.com/gists"
+    ],
+   "content_scripts": [
+    {
+        "matches": ["<all_urls>"],
+        "js": ["gist.js"]
+    }
+  ]
+
+}
