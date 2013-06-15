@@ -1,6 +1,7 @@
 {
   "name": "togist",
-  "version" : "1.0.1",
+  "version" : "1.0.2",
+  "manifest_version": 2,
   "icons" : {
     "16" : "github-little.png",
     "128" : "github-big.png"
